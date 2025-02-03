@@ -1,0 +1,50 @@
+<?xml version="1.0"?>
+<file id="stream" version="1.0">
+    <dataSource>
+    GENERIC
+    </dataSource>
+    <domainInfo>
+        <variableNames>
+            time    time
+            xc      lon
+            yc      lat
+            area    area
+            mask    mask
+        </variableNames>
+        <filePath>
+            /p/scratch/cslts/shared_data/rlmod_eCLM/wtb_1x1
+        </filePath>
+        <fileNames>
+            domain.lnd.1x1_wuestebach_east.190725.nc
+        </fileNames>
+    </domainInfo>
+    <fieldInfo>
+        <variableNames>
+            ZBOT     z
+            TBOT     tbot
+            RH       rh
+            WIND     wind
+            PSRF     pbot
+        </variableNames>
+        <filePath>
+            /p/scratch/cslts/shared_data/rlmod_eCLM/wtb_1x1/forcings
+        </filePath>
+        <fileNames>
+            2009-01.nc
+            2009-02.nc
+            2009-03.nc
+            2009-04.nc
+            2009-05.nc
+            2009-06.nc
+            2009-07.nc
+            2009-08.nc
+            2009-09.nc
+            2009-10.nc
+            2009-11.nc
+            2009-12.nc
+        </fileNames>
+        <offset>
+            0
+        </offset>
+    </fieldInfo>
+</file>

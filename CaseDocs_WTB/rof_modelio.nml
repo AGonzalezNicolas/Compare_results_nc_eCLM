@@ -1,0 +1,13 @@
+&modelio
+  diri = "/p/scratch/cslts/gonzalez5/CLM5_DATA/CaseOutputs/1x1_wuestebach_2009_forcings_DP_1/bld/rof"
+  diro = "/p/scratch/cslts/gonzalez5/CLM5_DATA/CaseOutputs/1x1_wuestebach_2009_forcings_DP_1/run"
+  logfile = "rof.log.10610845.241128-122737"
+/
+&pio_inparm
+  pio_netcdf_format = "64bit_offset"
+  pio_numiotasks = -99
+  pio_rearranger = 1
+  pio_root = 1
+  pio_stride = 48
+  pio_typename = "netcdf"
+/
